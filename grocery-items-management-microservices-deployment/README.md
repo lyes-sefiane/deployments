@@ -636,8 +636,8 @@ Start Grocery Items Management Microservice ...
  a7297f4b08c3 Extracting [==================================================>]  1.873kB/1.873kB
  a7297f4b08c3 Pull complete
  consul-server Pulled
- Network docker-compose_grocery-items-management-application  Creating
- Network docker-compose_grocery-items-management-application  Created
+ Network docker-compose_grocery-items-management-microservices  Creating
+ Network docker-compose_grocery-items-management-microservices  Created
  Container consul-server  Creating
  Container redis  Creating
  Container zipkin  Creating
@@ -713,8 +713,8 @@ ShutDown Start Grocery Items Management Microservice ...
  Container zipkin  Stopped
  Container zipkin  Removing
  Container zipkin  Removed
- Network docker-compose_grocery-items-management-application  Removing
- Network docker-compose_grocery-items-management-application  Removed
+ Network docker-compose_grocery-items-management-microservices  Removing
+ Network docker-compose_grocery-items-management-microservicesmicroservices  Removed
 
 ```
 
