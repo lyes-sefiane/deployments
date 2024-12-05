@@ -1,6 +1,6 @@
-# Grocery Items Management Application Deployments
+# Grocery Items Management Microservices Deployments
 
-### © 2024 | Lyes Sefiane <img src="https://raw.githubusercontent.com/wiki/lyes-sefiane/grocery-items-management-application/images/algeria-flag-icon.png" width="2%"> <img src="https://raw.githubusercontent.com/wiki/lyes-sefiane/grocery-items-management-application/images/canada-flag-icon.png" width="2%"> All Rights Reserved | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+### © 2024 | Lyes Sefiane <img src="https://raw.githubusercontent.com/wiki/lyes-sefiane/grocery-items-management/images/algeria-flag-icon.png" width="2%"> <img src="https://raw.githubusercontent.com/wiki/lyes-sefiane/grocery-items-management-application/images/canada-flag-icon.png" width="2%"> All Rights Reserved | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 [![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
@@ -13,12 +13,12 @@
 ![License](https://img.shields.io/static/v1?label=License&message=CC-BY-NC-ND-4.0&color=green)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-# Microservice Deployment to Localhost
+# Deployment to Localhost
 
 ```bash
 
-Lyes Sefiane@DESKTOP-EJF2R0S MINGW64 ~/Documents/eclipse-workspace/deployments/grocery-items-management-application-deployment (main)
-$ ./grocery-items-management-application
+Lyes Sefiane@******* ~/Documents/eclipse-workspace/deployments/grocery-items-management-microservices-deployment (main)
+$ ./grocery-items-management-microservices
 
 
   ┏┓             ┳
@@ -36,7 +36,7 @@ MINGW64_NT-10.0-19045 : Hi 😊 ! please make a selection.
 2) ShutDown Microservice
 3) quit
 #? 1
-Start Grocery Items Management Application Microservice ...
+Start Grocery Items Management Microservice ...
  zipkin Pulling
  grocery-items-management-api-gateway Pulling
  consul-server Pulling
@@ -669,8 +669,8 @@ Start Grocery Items Management Application Microservice ...
 
 ```bash
 
-Lyes Sefiane@DESKTOP-EJF2R0S MINGW64 ~/Documents/eclipse-workspace/deployments/grocery-items-management-application-deployment (main)
-$ ./grocery-items-management-application
+Lyes Sefiane@******** ~/Documents/eclipse-workspace/deployments/grocery-items-management-microservices-deployment (main)
+$ ./grocery-items-management-microservices
 
 
   ┏┓             ┳
@@ -688,7 +688,7 @@ MINGW64_NT-10.0-19045 : Hi 😊 ! please make a selection.
 2) ShutDown Microservice
 3) quit
 #? 2
-ShutDown Start Grocery Items Management Application Microservice ...
+ShutDown Start Grocery Items Management Microservice ...
  Container consul-client  Stopping
  Container grocery-items-management-api-gateway  Stopping
  Container grocery-items-management-api-gateway  Stopped

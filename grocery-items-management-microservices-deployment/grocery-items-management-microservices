@@ -36,7 +36,7 @@ do
 
     # Choice : 1
     "Start Microservice")
-          echo "Start Grocery Items Management Application Microservice ...";
+          echo "Start Grocery Items Management Microservice ...";
           docker-compose \
           -f docker-compose/redis.yml \
           -f docker-compose/zipkin.yml \
@@ -47,7 +47,7 @@ do
           break;;
     # Choice : 2
     "ShutDown Microservice")
-          echo "ShutDown Start Grocery Items Management Application Microservice ...";
+          echo "ShutDown Start Grocery Items Management Microservice ...";
           docker-compose \
           -f docker-compose/redis.yml \
           -f docker-compose/zipkin.yml \
