@@ -714,7 +714,7 @@ ShutDown Start Grocery Items Management Microservice ...
  Container zipkin  Removing
  Container zipkin  Removed
  Network docker-compose_grocery-items-management-microservices  Removing
- Network docker-compose_grocery-items-management-microservicesmicroservices  Removed
+ Network docker-compose_grocery-items-management-microservices  Removed
 
 ```
 
